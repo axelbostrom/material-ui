@@ -114,6 +114,7 @@ import { ToolbarClassKey } from '../Toolbar';
 import { TooltipClassKey } from '../Tooltip';
 import { TouchRippleClassKey } from '../ButtonBase/TouchRipple';
 import { TypographyClassKey } from '../Typography';
+import {PopperClassKey} from "@mui/base";
 
 export type OverridesStyleRules<
   ClassKey extends string = string,
@@ -215,6 +216,7 @@ export interface ComponentNameToClassKey {
   MuiPaginationItem: PaginationItemClassKey;
   MuiPaper: PaperClassKey;
   MuiPopover: PopoverClassKey;
+  MuiPopper: PopperClassKey;
   MuiRadio: RadioClassKey;
   MuiRating: RatingClassKey;
   MuiScopedCssBaseline: ScopedCssBaselineClassKey;
